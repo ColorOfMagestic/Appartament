@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Test</title>
+    <meta name="description" content="" />
+
+    <link rel="icon" type="image/png" href="favicon/favicon.png" />
+<link rel="icon" href="favicon/favicon.svg" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <meta name="format-detection" content="telephone=no" />
+  </head>
+  <body>
+    <header class="header" id="main_header">
+  <div class="header__container container">
+    <div class="header__wrapper top-wrapper">
+      <div class="header__logo logo">
+        <picture>
+          <source
+            media="(min-width: 1024px)"
+            srcset="images/global/logo_full.png"
+          />
+          <source media="(min-width: 320px)" srcset="images/global/logo.png" />
+          <img src="images/global/logo.png" alt="Логотип" />
+        </picture>
+      </div>
+      <nav class="header__navigation navigation">
+        <div class="header__navigation-wrapper">
+          <button class="header__navigation-btn btn--close">
+            <svg class="icon">
+              <use xlink:href="svg-sprite/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="header__navigation-list">
+            <li class="header__navigation-list-item">
+              <a class="scroll" href="#about">Xарактеристики</a>
+            </li>
+            <li class="header__navigation-list-item">
+              <a href="">Cертификация</a>
+            </li>
+            <li class="header__navigation-list-item">
+              <a class="scroll" href="#plans">Планировки</a>
+            </li>
+            <li class="header__navigation-list-item">
+              <a class="scroll" href="#views">Виды</a>
+            </li>
+            <li class="header__navigation-list-item">
+              <a class="scroll" href="#infrastructure">Район</a>
+            </li>
+            <li class="header__navigation-list-item">
+              <a class="scroll" href="#main_header">Аппартаменты</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <button class="header__menu-toggle menu-toggle">
+        <span class="menu-toggle__icon"></span>
+      </button>
+      <a class="header__call call-desktop" href="tel:7(903)-006-81-80"
+        >+7 (903)-006-81-80</a
+      >
+      <a class="header__call call-tel" href="tel:7(903)-006-81-80">
+        <svg class="icon">
+          <use xlink:href="svg-sprite/sprite.svg#tel"></use>
+        </svg>
+      </a>
+    </div>
+    <h2 class="header__title title title--size-sm">
+      Ваши идеальные аппартаменты у моря
+    </h2>
+    <p class="header__text text">
+      Недвижимость от сертифицированного застройщика
+    </p>
+    <div class="header__intro-swiper swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide intro-slide">
+          <div class="intro-slide__content">
+            <p class="intro-slide__text">
+              Элитный квартирный комплекс в 5 минутах от моря
+            </p>
+            <span class="intro-slide__text_count"
+              >От 87.000 за метр<sup>2</sup>
+            </span>
+            <a class="intro-slide__link" href=""
+              >Подобрать <span>квартиру</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-group">
+        <button class="swiper-button-prev">
+          <svg class="icon">
+            <use xlink:href="svg-sprite/sprite.svg#left_arr"></use>
+          </svg>
+        </button>
+        <button class="swiper-button-next">
+          <svg class="icon">
+            <use xlink:href="svg-sprite/sprite.svg#arr_right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+ <section id="about" class="about">
+  <div class="container">
+    <h2 class="about__title title title--size-sm wow fadeInDown">
+      аппартаменты, в которых идеально все
+    </h2>
+    <p class="about__discription textUp wow fadeInDown">
+      Наш комплекс находится в одном из самых экологичных районов евпатории
+    </p>
+    <div class="about_content">
+      <div class="about_content__features">
+        <div class="features__item wow fadeInDown delay-1000@lg">
+          <svg class="icon features__item-icon--geo">
+            <use xlink:href="svg-sprite/sprite.svg#geo"></use>
+          </svg>
+          <div class="features__item-description">
+            <p class="item-description-text">Общая территория застройки:</p>
+            <span class="item-description-count"> 2000 м2</span>
+          </div>
+        </div>
+        <div class="features__item wow fadeInDown delay-1000@lg">
+          <svg class="icon features__item-icon--house">
+            <use xlink:href="svg-sprite/sprite.svg#house"></use>
+          </svg>
+          <div class="features__item-description">
+            <p class="item-description-text">Высота потолков:</p>
+            <span class="item-description-count"> от 3,5 м</span>
+          </div>
+        </div>
+        <div class="features__item wow fadeInDown delay-1000@lg">
+          <svg class="icon features__item-icon--house_1">
+            <use xlink:href="svg-sprite/sprite.svg#house_1"></use>
+          </svg>
+          <div class="features__item-description">
+            <p class="item-description-text">Размеры окон:</p>
+            <span class="item-description-count"> от 170 см</span>
+          </div>
+        </div>
+        <div class="features__item wow fadeInDown delay-1000@lg">
+          <svg class="icon features__item-icon--fire">
+            <use xlink:href="svg-sprite/sprite.svg#fire"></use>
+          </svg>
+          <div class="features__item-description">
+            <p class="item-description-text">Система отопления:</p>
+            <span class="item-description-count"> Теплоноситель</span>
+          </div>
+        </div>
+        <div class="features__item wow fadeInDown delay-1000@lg">
+          <svg class="icon features__item-icon--homeHand">
+            <use xlink:href="svg-sprite/sprite.svg#homeHand"></use>
+          </svg>
+          <div class="features__item-description">
+            <p class="item-description-text">Отделка:</p>
+            <span class="item-description-count"> Чистовая</span>
+          </div>
+        </div>
+      </div>
+      <div class="about_content__img">
+        <img
+          class="about_content__features-img wow fadeInUp"
+          src="images/global/about_img_des.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="plans" class="plans">
+  <div class="container">
+    <h2 class="plans__title title title--size-sm wow fadeInDown">планировки</h2>
+    <p class="plans__discription wow fadeInDown">
+      Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+      Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала
+      XVI века.
+    </p>
+    <div class="plans__content">
+      <div class="plan plan_1 wow fadeInLeft">
+        <div class="plan-swiper plan_1-swiper swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_1_des.jpg"
+                src="images/plans/plan_1_des.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_2_des.jpg"
+                src="images/plans/plan_2_des.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_3_des.jpg"
+                src="images/plans/plan_3_des.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="swiper-button-group">
+            <button class="swiper-button-prev">
+              <svg class="icon">
+                <use xlink:href="svg-sprite/sprite.svg#left_arr"></use>
+              </svg>
+            </button>
+            <button class="swiper-button-next">
+              <svg class="icon">
+                <use xlink:href="svg-sprite/sprite.svg#arr_right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="plan__info plan_1__info">
+          <span class="info_price text--size-md">Цена: 15 000 000 руб.</span>
+          <span class="info_year">Год постройки: 2002</span>
+        </div>
+      </div>
+      <div class="plan plan_1 wow fadeInRight plan-hidden">
+        <div class="plan-swiper plan_1-swiper swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_2_des.jpg"
+                src="images/plans/plan_2_des.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_3_des.jpg"
+                src="images/plans/plan_3_des.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_4_des.jpg"
+                src="images/plans/plan_4_des.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="swiper-button-group">
+            <button class="swiper-button-prev">
+              <svg class="icon">
+                <use xlink:href="svg-sprite/sprite.svg#left_arr"></use>
+              </svg>
+            </button>
+            <button class="swiper-button-next">
+              <svg class="icon">
+                <use xlink:href="svg-sprite/sprite.svg#arr_right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="plan__info plan_1__info">
+          <span class="info_price text--size-md">Цена: 15 000 000 руб.</span>
+          <span class="info_year">Год постройки: 2002</span>
+        </div>
+      </div>
+      <div class="plan plan_1 wow fadeInLeft plan-hidden">
+        <div class="plan-swiper plan_1-swiper swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_3_des.jpg"
+                src="images/plans/plan_3_des.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_4_des.jpg"
+                src="images/plans/plan_4_des.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_1_des.jpg"
+                src="images/plans/plan_1_des.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="swiper-button-group">
+            <button class="swiper-button-prev">
+              <svg class="icon">
+                <use xlink:href="svg-sprite/sprite.svg#left_arr"></use>
+              </svg>
+            </button>
+            <button class="swiper-button-next">
+              <svg class="icon">
+                <use xlink:href="svg-sprite/sprite.svg#arr_right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="plan__info plan_1__info">
+          <span class="info_price text--size-md">Цена: 15 000 000 руб.</span>
+          <span class="info_year">Год постройки: 2002</span>
+        </div>
+      </div>
+      <div class="plan plan_1 wow fadeInRight plan-hidden">
+        <div class="plan-swiper plan_1-swiper swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_4_des.jpg"
+                src="images/plans/plan_4_des.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_1_des.jpg"
+                src="images/plans/plan_1_des.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_2_des.jpg"
+                src="images/plans/plan_2_des.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="swiper-button-group">
+            <button class="swiper-button-prev">
+              <svg class="icon">
+                <use xlink:href="svg-sprite/sprite.svg#left_arr"></use>
+              </svg>
+            </button>
+            <button class="swiper-button-next">
+              <svg class="icon">
+                <use xlink:href="svg-sprite/sprite.svg#arr_right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="plan__info plan_1__info">
+          <span class="info_price text--size-md">Цена: 15 000 000 руб.</span>
+          <span class="info_year">Год постройки: 2002</span>
+        </div>
+      </div>
+      <div class="plan plan_1 wow fadeInLeft plan-hidden">
+        <div class="plan-swiper plan_1-swiper swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_1_des.jpg"
+                src="images/plans/plan_1_des.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_2_des.jpg"
+                src="images/plans/plan_2_des.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_3_des.jpg"
+                src="images/plans/plan_3_des.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="swiper-button-group">
+            <button class="swiper-button-prev">
+              <svg class="icon">
+                <use xlink:href="svg-sprite/sprite.svg#left_arr"></use>
+              </svg>
+            </button>
+            <button class="swiper-button-next">
+              <svg class="icon">
+                <use xlink:href="svg-sprite/sprite.svg#arr_right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="plan__info plan_1__info">
+          <span class="info_price text--size-md">Цена: 15 000 000 руб.</span>
+          <span class="info_year">Год постройки: 2002</span>
+        </div>
+      </div>
+      <div class="plan plan_1 wow fadeInRight plan-hidden">
+        <div class="plan-swiper plan_1-swiper swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_2_des.jpg"
+                src="images/plans/plan_2_des.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_3_des.jpg"
+                src="images/plans/plan_3_des.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_4_des.jpg"
+                src="images/plans/plan_4_des.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="swiper-button-group">
+            <button class="swiper-button-prev">
+              <svg class="icon">
+                <use xlink:href="svg-sprite/sprite.svg#left_arr"></use>
+              </svg>
+            </button>
+            <button class="swiper-button-next">
+              <svg class="icon">
+                <use xlink:href="svg-sprite/sprite.svg#arr_right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="plan__info plan_1__info">
+          <span class="info_price text--size-md">Цена: 15 000 000 руб.</span>
+          <span class="info_year">Год постройки: 2002</span>
+        </div>
+      </div>
+      <div class="plan plan_1 wow fadeInLeft plan-hidden">
+        <div class="plan-swiper plan_1-swiper swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_3_des.jpg"
+                src="images/plans/plan_3_des.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_4_des.jpg"
+                src="images/plans/plan_4_des.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_1_des.jpg"
+                src="images/plans/plan_1_des.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="swiper-button-group">
+            <button class="swiper-button-prev">
+              <svg class="icon">
+                <use xlink:href="svg-sprite/sprite.svg#left_arr"></use>
+              </svg>
+            </button>
+            <button class="swiper-button-next">
+              <svg class="icon">
+                <use xlink:href="svg-sprite/sprite.svg#arr_right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="plan__info plan_1__info">
+          <span class="info_price text--size-md">Цена: 15 000 000 руб.</span>
+          <span class="info_year">Год постройки: 2002</span>
+        </div>
+      </div>
+      <div class="plan plan_1 wow fadeInRight plan-hidden">
+        <div class="plan-swiper plan_1-swiper swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_4_des.jpg"
+                src="images/plans/plan_4_des.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_1_des.jpg"
+                src="images/plans/plan_1_des.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                data-fancybox
+                data-src="images/plans/plan_2_des.jpg"
+                src="images/plans/plan_2_des.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="swiper-button-group">
+            <button class="swiper-button-prev">
+              <svg class="icon">
+                <use xlink:href="svg-sprite/sprite.svg#left_arr"></use>
+              </svg>
+            </button>
+            <button class="swiper-button-next">
+              <svg class="icon">
+                <use xlink:href="svg-sprite/sprite.svg#arr_right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="plan__info plan_1__info">
+          <span class="info_price text--size-md">Цена: 15 000 000 руб.</span>
+          <span class="info_year">Год постройки: 2002</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <section id="views" class="views">
+  <div class="container">
+    <h2 class="views__title title title--size-sm wow fadeInDown">Наши виды</h2>
+    <p class="views__discription textUp wow fadeInDown">
+      Красивые виды позволят наслаждаться проживанием каждый день
+    </p>
+    <div class="views-swiper swiper-container wow fadeInLeft">
+      <div class="swiper-button-group">
+        <button class="views-swiper-button-prev">
+          <svg class="icon">
+            <use xlink:href="svg-sprite/sprite.svg#left_arr_view"></use>
+          </svg>
+        </button>
+        <button class="views-swiper-button-next">
+          <svg class="icon">
+            <use xlink:href="svg-sprite/sprite.svg#arr_right_view"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img
+            data-fancybox
+            data-src="images/views/view_1_des.jpg"
+            src="images/views/view_1_des.jpg"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            data-fancybox
+            data-src="images/views/view_2_des.jpg"
+            src="images/views/view_2_des.jpg"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            data-fancybox
+            data-src="images/views/view_3_des.jpg"
+            src="images/views/view_3_des.jpg"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            data-fancybox
+            data-src="images/views/view_4_des.jpg"
+            src="images/views/view_4_des.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="swiper-button-group_mob">
+        <button class="views-swiper-button-prev">
+          <svg class="icon">
+            <use xlink:href="svg-sprite/sprite.svg#left_arr_view"></use>
+          </svg>
+        </button>
+        <button class="views-swiper-button-next">
+          <svg class="icon">
+            <use xlink:href="svg-sprite/sprite.svg#arr_right_view"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="infrastructure" class="infrastructure">
+  <div class="container">
+    <h2 class="infrastructure__title title title--size-sm wow fadeInDown">
+      Инфраструктура района
+    </h2>
+    <div class="infrastructure__content">
+      <div class="infrastructure__lists">
+        <ul class="infrastructure__list list_1 wow fadeIn delay-500">
+          <li class="infrastructure__list-item">
+            Школы: (МБОУ СШ No 11, просп. Победы, 21, 15 минут пешком;
+          </li>
+          <li class="infrastructure__list-item">
+            СШ No2 15, ул. Фрунзе 21, 15 минут пешком)
+          </li>
+          <li class="infrastructure__list-item">
+            Сады: ДОУ No2, ул. Дёмышева, 133, 15 минут пешком
+          </li>
+          <li class="infrastructure__list-item">
+            ДОУ No 38, ул. Дёмышева, 110Б, 18 минут пешком
+          </li>
+          <li class="infrastructure__list-item">
+            Аквариум: ул. Горького, 5А/1, 10 минут пешком
+          </li>
+        </ul>
+        <ul class="infrastructure__list list_2 wow fadeIn delay-500">
+          <li class="infrastructure__list-item">
+            Аквапарки: Банановая Республика, 25 минут на авто
+          </li>
+          <li class="infrastructure__list-item">Алоха, 45 минут на авто</li>
+          <li class="infrastructure__list-item">
+            Тренажерный зал: Life Fit, Ул. 60-летия ВЛКСМ
+          </li>
+          <li class="infrastructure__list-item">
+            Супермаркеты: Яблоко, ул. Дмитрия Ульянова, 1/2 , 5 минут на авто
+          </li>
+          <li class="infrastructure__list-item">
+            Фреш, ул. Интернациональная 88, 10 минут на авто
+          </li>
+        </ul>
+      </div>
+      <div class="map wow fadeIn delay-1000">
+        <img src="images/infrastructure/map_des.jpg" alt="" />
+      </div>
+      <!-- <div class="mymap" id="map"></div> -->
+    </div>
+  </div>
+</section>
+
+    <section id="investing" class="investing">
+  <div class="container">
+    <h2 class="investing__title title title--size-sm wow fadeInDown">
+      Заголовок про инвестиции
+    </h2>
+    <div class="investing__content">
+      <div class="investing__content-wrapper">
+        <div class="investing__content-item wow fadeInDown delay-1000">
+          <svg class="icon">
+            <use xlink:href="svg-sprite/sprite.svg#plan"></use>
+          </svg>
+          <p class="content-item-description">
+            Квартиры с интересными и необычными планировками.
+          </p>
+        </div>
+        <div class="investing__content-item wow fadeInDown delay-1000">
+          <svg class="icon">
+            <use xlink:href="svg-sprite/sprite.svg#bag"></use>
+          </svg>
+          <p class="content-item-description">
+            Цена квартир увеличивается с каждым годом.
+          </p>
+        </div>
+        <div class="investing__content-item wow fadeInDown delay-1000">
+          <svg class="icon">
+            <use xlink:href="svg-sprite/sprite.svg#persent"></use>
+          </svg>
+          <p class="content-item-description">
+            Комплекс аккредитован для ипотечного кредитования.
+          </p>
+        </div>
+      </div>
+      <div class="investing__content-pic wow fadeInUp">
+        <img src="images/investing/img_des.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+</section>
+ <section id="building" class="building">
+  <div class="container">
+    <h2 class="building__title title title--size-sm wow fadeInDown">
+      Ход строительства
+    </h2>
+    <div class="building__accordion">
+      <div class="accordion_item accordion_item--active">
+        <div class="accordion_item-trigger text--size-lg wow fadeInDown">
+          День 1
+          <span class="accordion_item-trigger_arrow"></span>
+        </div>
+        <div class="accordion_item-content">
+          <div class="content_wrapper">
+            <p class="item-content_text wow fadeIn delay-250">
+              Давно выяснено, что при оценке дизайна и композиции читаемый текст
+              мешает сосредоточиться. Lorem Ipsum используют потому, что тот
+              обеспечивает более или менее стандартное заполнение шаблона, а
+              также реальное распределение букв и пробелов в абзацах, которое не
+              получается при простой дубликации
+            </p>
+            <div class="item-content_gallery wow fadeInUp">
+              <div class="gallery-item">
+                <img
+                  data-fancybox="gallery_1"
+                  data-src="images/building/img_1_des.jpg"
+                  src="images/building/img_1_des.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  data-fancybox="gallery_1"
+                  data-src="images/building/img_2_des.jpg"
+                  src="images/building/img_2_des.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  data-fancybox="gallery_1"
+                  data-src="images/building/img_2_des.jpg"
+                  src="images/building/img_2_des.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  data-fancybox="gallery_1"
+                  data-src="images/building/img_3_des.jpg"
+                  src="images/building/img_3_des.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion_item">
+        <div class="accordion_item-trigger text--size-lg wow fadeInDown">
+          День 35
+          <span class="accordion_item-trigger_arrow"></span>
+        </div>
+        <div class="accordion_item-content">
+          <div class="content_wrapper">
+            <p class="item-content_text wow fadeIn delay-250">
+              Давно выяснено, что при оценке дизайна и композиции читаемый текст
+              мешает сосредоточиться. Lorem Ipsum используют потому, что тот
+              обеспечивает более или менее стандартное заполнение шаблона, а
+              также реальное распределение букв и пробелов в абзацах, которое не
+              получается при простой дубликации
+            </p>
+            <div class="item-content_gallery wow fadeInUp">
+              <div class="gallery-item">
+                <img
+                  data-fancybox="gallery_2"
+                  data-src="images/building/img_1_des.jpg"
+                  src="images/building/img_1_des.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  data-fancybox="gallery_2"
+                  data-src="images/building/img_2_des.jpg"
+                  src="images/building/img_2_des.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  data-fancybox="gallery_2"
+                  data-src="images/building/img_2_des.jpg"
+                  src="images/building/img_2_des.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  data-fancybox="gallery_2"
+                  data-src="images/building/img_3_des.jpg"
+                  src="images/building/img_3_des.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion_item">
+        <div class="accordion_item-trigger text--size-lg wow fadeInDown">
+          День 80
+          <span class="accordion_item-trigger_arrow"></span>
+        </div>
+        <div class="accordion_item-content">
+          <div class="content_wrapper">
+            <p class="item-content_text wow fadeIn delay-250">
+              Давно выяснено, что при оценке дизайна и композиции читаемый текст
+              мешает сосредоточиться. Lorem Ipsum используют потому, что тот
+              обеспечивает более или менее стандартное заполнение шаблона, а
+              также реальное распределение букв и пробелов в абзацах, которое не
+              получается при простой дубликации
+            </p>
+            <div class="item-content_gallery wow fadeInUp">
+              <div class="gallery-item">
+                <img
+                  data-fancybox="gallery_3"
+                  data-src="images/building/img_1_des.jpg"
+                  src="images/building/img_1_des.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  data-fancybox="gallery_3"
+                  data-src="images/building/img_2_des.jpg"
+                  src="images/building/img_2_des.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  data-fancybox="gallery_3"
+                  data-src="images/building/img_2_des.jpg"
+                  src="images/building/img_2_des.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  data-fancybox="gallery_3"
+                  data-src="images/building/img_3_des.jpg"
+                  src="images/building/img_3_des.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion_item">
+        <div class="accordion_item-trigger text--size-lg wow fadeInDown">
+          День 150
+          <span class="accordion_item-trigger_arrow"></span>
+        </div>
+        <div class="accordion_item-content">
+          <div class="content_wrapper">
+            <p class="item-content_text wow fadeIn delay-250">
+              Давно выяснено, что при оценке дизайна и композиции читаемый текст
+              мешает сосредоточиться. Lorem Ipsum используют потому, что тот
+              обеспечивает более или менее стандартное заполнение шаблона, а
+              также реальное распределение букв и пробелов в абзацах, которое не
+              получается при простой дубликации
+            </p>
+            <div class="item-content_gallery wow fadeInUp">
+              <div class="gallery-item">
+                <img
+                  data-fancybox="gallery_4"
+                  data-src="images/building/img_1_des.jpg"
+                  src="images/building/img_1_des.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  data-fancybox="gallery_4"
+                  data-src="images/building/img_2_des.jpg"
+                  src="images/building/img_2_des.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  data-fancybox="gallery_4"
+                  data-src="images/building/img_2_des.jpg"
+                  src="images/building/img_2_des.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  data-fancybox="gallery_4"
+                  data-src="images/building/img_3_des.jpg"
+                  src="images/building/img_3_des.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="consultation" class="consultation">
+  <div class="container">
+    <h2 class="consultation__title title title--size-sm wow fadeInDown">
+      Оставьте контактные данные и получите бесплатную консультацию
+    </h2>
+    <div class="consultation__content">
+      <div class="form-wrapper">
+        <form class="consult-form wow fadeInLeft" action="form.php">
+          <label class="consult-label">
+            <input
+              class="consult-input"
+              name="firstName"
+              type="text"
+              placeholder="Введите имя"
+            />
+          </label>
+          <label class="consult-label">
+            <input
+              class="consult-input"
+              name="tel"
+              type="text"
+              placeholder="Введите телефон"
+            />
+          </label>
+          <label class="consult-label">
+            <input
+              class="consult-input"
+              name="date"
+              type="text"
+              placeholder="Удобное время консультации"
+            />
+          </label>
+          <input
+            class="consult-input consult-input--btn"
+            type="submit"
+            value="Оставить заявку"
+          />
+        </form>
+        <span class="form-assent wow fadeIn delay-500">
+          Нажимая кнопку вы соглашаетесь с политикой обработки данных
+        </span>
+      </div>
+
+      <div class="consultation__content-pic">
+        <img
+          class="wow fadeInUp"
+          src="images/consultation/rieltor_des.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+  </div>
+</section>
+ <footer class="footer">
+  <div class="footer__container container">
+    <div class="footer__wrapper wow fadeIn">
+      <div class="footer__logo logo">
+        <img src="images/global/logo_full.png" alt="Логотип" />
+      </div>
+      <nav class="footer__navigation navigation">
+        <ul class="footer__navigation-list">
+          <li class="footer__navigation-list-item text--size-lg">
+            <a href="">Xарактеристики</a>
+          </li>
+          <li class="footer__navigation-list-item text--size-lg">
+            <a href="">Cертификация</a>
+          </li>
+          <li class="footer__navigation-list-item text--size-lg">
+            <a href="">Планировки</a>
+          </li>
+          <li class="footer__navigation-list-item text--size-lg">
+            <a href="">Виды</a>
+          </li>
+          <li class="footer__navigation-list-item text--size-lg">
+            <a href="">Район</a>
+          </li>
+          <li class="footer__navigation-list-item text--size-lg">
+            <a href="">Аппартаменты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="call-wrapper">
+        <a class="footer__call call-desktop" href="tel:7(903)-006-81-80"
+          >+7 (903)-006-81-80</a
+        >
+        <span class="footer__politics">Политика конфедециальности</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script> -->
+    <script src="js/libraries/libraries.js"></script>
+    <script src="js/main/main.js"></script>
+  </body>
+</html>

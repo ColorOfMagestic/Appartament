@@ -3907,7 +3907,7 @@ textarea::placeholder {
   min-width: 280px;
   min-height: 330px;
   padding-left: 0.15rem;
-  background-image: url(../../../images/global/intro_slider.jpg);
+  background-image: url(../images/global/intro_slider.jpg);
   background-size: cover;
 }
 
